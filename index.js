@@ -3,18 +3,15 @@ function add(a, b) {
   }
 
   function isEven(a) {
-    // write your code here
     if (a % 2 == 0) return true;
     else return false;
   }
   
   function greet(name) {
-    // write your code here
     return `Hello there ${name}`
   }
   
   function isAnAdult(age) {
-    // write your code here
     if (age >= 18) return true
     else return false 
   }
